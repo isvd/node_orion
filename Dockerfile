@@ -20,4 +20,6 @@ apt install -y --force-yes \
 
 RUN npm install -g bower
 
+WORKDIR /opt
+
 
